@@ -9,3 +9,6 @@
 
 
 ![hmi开发板图片](./doc/1.jpg)
+
+
+板子硬件开源:https://oshwhub.com/hasaki6/hpm68-hmi
