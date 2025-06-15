@@ -1,0 +1,27 @@
+# Copyright (c) 2023-2024 HPMicro
+# SPDX-License-Identifier: BSD-3-Clause
+
+board:
+    soc: HPM6880
+    device: HPM6880xBDx
+    openocd-soc: hpm6880
+    openocd-probe: cmsis-dap
+    on-board-ram:
+      type: sdram
+      size: 128M
+      width: 32bit
+    on-board-flash:
+      type: qspi-nor-flash
+      size: 32M
+    feature:
+      - board_audio_in # PDM
+      - board_audio_out # DAO
+      - board_audio_codec # I2S codec
+      - board_gpt_pin
+      - board_enet_pps_output_pin
+      - board_enet_pps_input_pin
+      - board_enet_phy
+      - board_sdcard
+      - board_sdram
+      - board_ap6255_evb
+      - board_puart_pin
